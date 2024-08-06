@@ -21,16 +21,16 @@ USE `project`;
 -- Table structure for table `dızılım`
 --
 
-DROP TABLE IF EXISTS `dızılım`;
+DROP TABLE IF EXISTS `dizilim`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `dızılım` (
-  `TakımID` int NOT NULL,
-  `ılk_bes_oyuncu1ID` int NOT NULL,
-  `ılk_bes_oyuncu2ID` int NOT NULL,
-  `ılk_bes_oyuncu3ID` int NOT NULL,
-  `ılk_bes_oyuncu4ID` int NOT NULL,
-  `ılk_bes_oyuncu5ID` int NOT NULL,
+CREATE TABLE `dizilim` (
+  `TakimID` int NOT NULL,
+  `ilk_bes_oyuncu1ID` int NOT NULL,
+  `ilk_bes_oyuncu2ID` int NOT NULL,
+  `ilk_bes_oyuncu3ID` int NOT NULL,
+  `ilk_bes_oyuncu4ID` int NOT NULL,
+  `ilk_bes_oyuncu5ID` int NOT NULL,
   `yedek_bes_oyuncu1ID` int NOT NULL,
   `yedek_bes_oyuncu2ID` int NOT NULL,
   `yedek_bes_oyuncu3ID` int NOT NULL,
